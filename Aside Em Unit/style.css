@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  /* font-size: 19px; */
 }
 
 body {
@@ -23,7 +24,8 @@ header {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 3.25em;
+  /* font-size: 52px;  52/16 */
   font-family: "Fugaz One", cursive;
   margin: 0 0 8px;
 }
@@ -34,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   width: 80%;
   border-bottom: dotted 1px;
   padding-bottom: 12px;
@@ -42,7 +44,7 @@ h3 {
 }
 
 .total-wk {
-  font-size: 18px;
+  font-size: 1.125em;
   letter-spacing: -1px;
 }
 
