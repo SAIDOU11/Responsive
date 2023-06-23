@@ -152,20 +152,11 @@ li {
 
 /* Media queries */
 
-@media (min-width: 480px) {
-  .section-two-image-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .feature-image {
-    width: 48.8%;
-  }
-}
 @media (max-width: 767px) {
   header {
     text-align: center;
   }
-  nav a {
+  nav {
     margin-top: 1.5em;
   }
   li:not(:last-child) {
@@ -188,6 +179,18 @@ li {
   p {
     font-size: 1.125rem;
   }
+
+  header .container,
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    gap: 1.25em;
+  }
+
   .subheading {
     font-size: 1.25rem;
   }
