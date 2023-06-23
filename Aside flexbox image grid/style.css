@@ -2,10 +2,18 @@
   max-width: 800px;
   line-height: 0;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid;
+  gap: 0.5em;
 }
 
 .pet-item {
-  width: 220px;
+  flex: 1 220px;
+}
+
+.expand {
+  flex-basis: 300px;
 }
 
 img {
