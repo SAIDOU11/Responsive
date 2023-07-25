@@ -1,5 +1,5 @@
 # The Frontend Developer Career Path
 
-# Module 6 Scrimba Bootcamp Responsive Design
+# Module 10 Scrimba Frontend Developer Career Path. Responsive Design.
 
 - Responsive Site
